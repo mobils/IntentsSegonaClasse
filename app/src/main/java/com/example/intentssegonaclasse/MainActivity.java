@@ -41,7 +41,15 @@ public class MainActivity extends AppCompatActivity {
 
                 EditText text_nom_jugador = findViewById(R.id.nom_per_activitat3);
 
-                //Intent in = new Intent
+                Intent in3 = new Intent(getApplicationContext(), Activitat3PerEnviarDades.class);
+                //Fico les dades en un sac (Bundle) i dins del intent
+                Bundle sac = new Bundle();
+
+                sac.putString("nomJugador", text_nom_jugador.getText().toString());
+                //nomJugador és el nom de l'etiqueta per saber com es dirà el que vull recuperar després.
+                in3.putExtras(sac);  //sac dins del intent
+
+                startActivity(in3);
             }
         });
 
