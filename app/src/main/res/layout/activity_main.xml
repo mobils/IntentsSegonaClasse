@@ -30,4 +30,24 @@
         android:textSize="50sp"/>
 
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introdueix el nom del jugador per l'activitat 3"
+        android:textSize="40sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom jugador"
+        android:id="@+id/nom_per_activitat3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envia dades a Activitat 3"
+        android:id="@+id/btn_main_envia"
+        android:textSize="30sp"
+        />
+
 </LinearLayout>

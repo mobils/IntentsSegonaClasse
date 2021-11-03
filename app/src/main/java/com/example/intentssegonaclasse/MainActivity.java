@@ -32,6 +32,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        Button boto_main_envia = findViewById(R.id.btn_main_envia);
+
+        boto_main_envia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //TODO: Recupero el text i li envio a l'activitat 3
+
+                EditText text_nom_jugador = findViewById(R.id.nom_per_activitat3);
+
+                //Intent in = new Intent
+            }
+        });
+
+
     }
 
     @Override

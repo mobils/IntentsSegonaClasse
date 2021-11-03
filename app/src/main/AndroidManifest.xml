@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntentsSegonaClasse">
         <activity
+            android:name=".Activitat3PerEnviarDades"
+            android:exported="true" />
+        <activity
             android:name=".Activitat2PerRecuperarDades"
             android:exported="true" />
         <activity
